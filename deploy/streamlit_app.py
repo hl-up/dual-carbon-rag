@@ -41,9 +41,9 @@ def document_page(ledger):
     )
     row = rows[selected]
     meta = row["metadata"]
-    st.write(f"**标题：**{meta['title']}")
-    st.write(f"**发布机构：**{meta['issuer']}　**发布日期：**{meta['publish_date']}")
-    st.write(f"**类型：**{meta['doc_type']}　**核验状态：**{meta['verification_status']}")
+    st.markdown(f"**标题：** {meta['title']}")
+    st.markdown(f"**发布机构：** {meta['issuer']}　**发布日期：** {meta['publish_date']}")
+    st.markdown(f"**类型：** {meta['doc_type']}　**核验状态：** {meta['verification_status']}")
     if meta["source_url"]:
         st.link_button("查看来源发布页", meta["source_url"])
     pdf_path = DATA_DIR / "originals" / f"{row['doc_id']}.pdf"

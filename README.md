@@ -20,7 +20,7 @@
 
 公开索引使用 `text-embedding-3-small`、1536 维。访客的嵌入接口必须与该索引兼容。提问和检索到的原文片段会发送到访客选择的模型服务。Streamlit Community Cloud 的运行时存储为临时存储；仓库中的资料快照会在重新部署时恢复。
 
-站点部署完成后，维护者应在此处填写实际访问地址并检查匿名访问。
+公开站点：[dual-carbon-rag.streamlit.app](https://dual-carbon-rag.streamlit.app/)。无需登录即可浏览目录和下载原件；问答需填写访客自己的模型接口密钥。
 
 ## 从空白环境启动
 
