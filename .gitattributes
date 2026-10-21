@@ -1,0 +1,4 @@
+*.pdf binary
+*.sqlite3 binary
+*.bin binary
+*.pickle binary

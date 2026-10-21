@@ -1,0 +1,8 @@
+streamlit>=1.40,<2
+langchain-core>=1,<2
+langchain-openai>=1,<2
+langchain-chroma>=1,<2
+langchain-text-splitters>=1,<2
+pdfplumber>=0.11,<0.12
+python-dotenv>=1,<2
+langsmith>=0.4,<1

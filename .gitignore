@@ -41,3 +41,11 @@ tmp/
 Thumbs.db
 .idea/
 .vscode/
+
+# Reviewed public snapshot used by the hosted, read-only app.
+!public_data/**/*.pdf
+!public_data/**/*.sqlite3
+!public_data/chroma/**/*.bin
+!public_data/chroma/**/*.pickle
+public_data/**/*.sqlite3-shm
+public_data/**/*.sqlite3-wal
