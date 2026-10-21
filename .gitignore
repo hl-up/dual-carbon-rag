@@ -1,0 +1,43 @@
+# Local credentials and provider configuration
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+*.pem
+*.p12
+*.pfx
+*.key
+
+# Private source documents, indexes, and generated review material
+pdf/
+data/
+data_*/
+docs/
+双碳政策RAG_PRD_技术方案_测试用例.md
+evaluation/cases.jsonl
+evaluation/report.md
+evaluation/*.json
+evaluation/*.csv
+evaluation/*.xml
+*.sqlite3
+*.sqlite3-*
+*.pdf
+*.doc
+*.docx
+*.xlsx
+
+# Local runtimes and caches
+.venv/
+.uv-cache/
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+tmp/
+*.py[cod]
+*.log
+
+# Editor and OS files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

@@ -1,0 +1,2 @@
+{"id":"EX01","category":"示例","question":"示例文件如何定义核算范围？","scope":"national","expected_status":"answered","expected_evidence":[{"doc_id":"replace-with-your-doc-id","page":1}],"reference_answer":"根据自行核验并入库的示例原件填写。"}
+{"id":"EX02","category":"示例","question":"当前资料库未收录的某项政策何时生效？","scope":"national","expected_status":"insufficient","expected_evidence":[],"reference_answer":""}
